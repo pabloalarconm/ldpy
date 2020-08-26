@@ -1,5 +1,5 @@
 
-#ldpy: Linked Data Platform Client for python
+## ldpy: Linked Data Platform Client for python
 
 ```python
 import os
@@ -12,7 +12,7 @@ import requests
 from ldpy import ldp
 
 ```
-## Set main parameter:
+### Set main parameter:
 
 ```python
 #Set client class
@@ -24,14 +24,14 @@ cli=ldp.Client(endpoint="http://Use/your/own/LDP/endpoint/",
 cont=cli.containers_level
 
 ```
-## Create a new container:
+### Create a new container:
 
 ```python
 cont.addnewcontainer(location="parent_container", 
                         slug="NewContainer") #you can choice as location any container inside the parent container (endpoint) as well.
 
 ```
-## Add metadata to containers:
+### Add metadata to containers:
 
 ```python
 # By using rdflib module:
@@ -43,28 +43,26 @@ cont.add_metadata_to_Cont("NewContainer",g=[[pablo,FOAF.name,"Pablo Alarcon"],
 cont.delete("NewContainer")
 
 ```
-## Delete Containers:
-
-```
+### Delete Containers:
 
 ```python
 cont.delete("NewContainer")
 ```
 
-## Set resource object based on container object:
+### Set resource object based on container object:
 
 ```python
 res=cont.resources_level
 ```
 
-## Create new resource 
+### Create new resource 
 ```python
 res.addnewresource(location="NewContainer",
                        slug="NewResource",
                         g=graph) #g parameter must be a graph object or a list of triples as: [[s,p,o],[s,p,o],[s,p,o]]
 ```
 
-## Add metadata to Resources
+### Add metadata to Resources
 
 
 
@@ -77,7 +75,7 @@ res.add_metadata_to_Res("NewResource",g=[[pablo,FOAF.name,"Pablo Alarcon"],
 
 ```
 
-## Delete Containers:
+### Delete Containers:
 
 ```python
 cont.delete("NewContainer")

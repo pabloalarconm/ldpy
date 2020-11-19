@@ -1,7 +1,9 @@
 README.md
+setup.cfg
 setup.py
 ldpy/__init__.py
 ldpy/ldp.py
+ldpy/util.py
 ldpy.egg-info/PKG-INFO
 ldpy.egg-info/SOURCES.txt
 ldpy.egg-info/dependency_links.txt

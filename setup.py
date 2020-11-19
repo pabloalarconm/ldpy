@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name="ldpy",
-    version="0.1",
+    version="0.2.0",
     packages=find_packages(),
     author="Pablo Alarcón Moreno",
     author_email="pabloalarconmoreno@gmail.com",

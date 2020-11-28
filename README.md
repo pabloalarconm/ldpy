@@ -20,5 +20,5 @@ cli=ldp.Client(endpoint="http://Use/your/own/LDP/endpoint/",
                 password="password")
 
 ```
-### There a test_package.ipynb as test with all functionalities inside this package as Docs to learn more about how to use it. Please take a look!
+ There a test_package.ipynb as test with all functionalities inside this package as Docs to learn more about how to use it. Please take a look!
 

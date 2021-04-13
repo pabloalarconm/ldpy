@@ -1,15 +1,17 @@
 
 # ldpy: Linked Data Platform Client for python.
 
-### New LDP Client to managing meta(data).
+## New LDP Client to managing meta(data).
 
-## For installing:
+### For installing:
 
  Clone this repo at your computer, move to this folder and install it:
-```bash
+```sh
+git clone https://github.com/pabloalarconm/ldpy.git
+cd ldpy
 python3 setup.py install
 ```
-## First step:
+### First steps:
 
 ```python
 from ldpy import ldp
@@ -20,5 +22,5 @@ cli=ldp.Client(endpoint="http://Use/your/own/LDP/endpoint/",
                 password="password")
 
 ```
- There a test_package.ipynb as test with all functionalities inside this package as Docs to learn more about how to use it. Please take a look!
 
+ **Documentation:** Please check `ldpy/test_package.ipynb` to explore all functionalities inside this package!

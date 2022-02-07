@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="ldpy",
-    version="0.2.1",
+    version="0.2.3",
     packages=find_packages(),
     author="Pablo Alarcón Moreno",
     author_email="pabloalarconmoreno@gmail.com",
